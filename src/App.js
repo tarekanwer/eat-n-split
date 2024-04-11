@@ -35,6 +35,7 @@ function App() {
 
   function handleShowAddFriend() {
     setShowAddFriend((show) => !show);
+    setShowAddFriend(false);
   }
 
   function handleAddFriend(friend) {
